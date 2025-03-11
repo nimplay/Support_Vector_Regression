@@ -25,6 +25,17 @@ st.markdown("""
     .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
         color: #4CAF50;
     }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -145,3 +156,13 @@ if 'Experience' in data.columns and 'educational_level' in data.columns and 'ski
     """)
 else:
     st.error("The CSV file must contain the columns: 'Experience', 'educational_level', 'skills', and 'salary'.")
+
+# Footer
+st.markdown(
+    """
+    <div class="footer">
+        <p>© 2025 | Developed by Nimrod Acosta</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
