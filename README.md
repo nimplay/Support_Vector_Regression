@@ -46,7 +46,15 @@ To run this app, you need the following Python libraries:
 - `scikit-learn`
 - `matplotlib`
 
-You can install these dependencies using:
+## Live Version
+https://supportvectorregression-mdhjql2mhpdu5oqrueg4qw.streamlit.app/
+
+
+## You can install these dependencies using:
 
 ```bash
-pip install streamlit pandas numpy scikit-learn matplotlib
+
+ pip install streamlit pandas numpy scikit-learn matplotlib
+
+---
+
